@@ -1,0 +1,2301 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#FAEBD7;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ffd700;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* My CODE START HERE*/
+
+
+.title{
+grid-area: title;
+
+font-size:35px;
+font-family:  Cascadia Code;
+
+padding-top: 70px;
+}
+
+
+
+
+
+
+.header {
+  grid-area:header;
+  padding-top: 70px;
+  font-size:20px;
+  font-family:  Cascadia Code;
+  text-align: center;
+
+}
+
+.h{
+  width:100%;
+  height:2px;
+  border:0 none;
+  margin-right:auto;
+  margin-left:0px;
+  margin-top: 10px;
+
+  background-color: black;
+}
+.ghost{
+
+
+  width:135%;
+  height:2px;
+  border:0 none;
+  margin-right:auto;
+  margin-left:0px;
+  margin-top: 30px;
+
+  background-color: black;
+}
+
+.n1{
+  margin-right: 1200px;
+}
+
+.scroll-to-top {
+  position: relative;
+}
+
+.btn-position {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 20;
+}
+
+.btn-style {
+  background-color: #551b54;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.icon-style:hover {
+  animation: none;
+  background: #fff;
+  color: #551b54;
+  border: 2px solid #551b54;
+}
+
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+.phantom{
+
+
+  width:135%;
+  height:2px;
+  border:0 none;
+ margin-right: auto;
+  margin-left:0px;
+  margin-top: 20px;
+
+  background-color: black;
+}
+
+.content{
+
+clear:both;
+padding-top: 20px;
+margin-right: 350px;
+
+}
+
+.headingDiv{
+  float:left;
+  width:30%;
+  display:inline;
+  font-family:   Cascadia Code;
+  margin-left:  320px;
+
+}
+
+.Curtin_logo{
+
+  width: 300px;
+  height:50px;
+  background-image: url(img/curtin.png);
+  background-size: 100%;
+  margin-left:1000px;
+
+  margin-top: -60px;
+}
+
+.Curtin_logo:hover{
+  background-size:50%
+
+}
+
+
+
+.headingDiv1{
+  padding-top: 30px;
+}
+.headingDiv2{
+  padding-top: 50px;
+}
+.headingDiv3{
+  padding-top: 75px;
+}
+.headingDiv4{
+  padding-top: 30px;
+}
+.headingDiv5{
+  padding-top: 40px;
+}
+.headingDiv6{
+  padding-top: 40px;
+}
+.headingDiv7{
+  padding-top: 45px;
+}
+.headingDiv8{
+  padding-top: 45px;
+}
+
+.headingDiv9{
+  padding-top: 45px;
+}
+
+.headingDiv10{
+  padding-top: 100px;
+}
+
+.headingDiv11{
+  padding-top: 150px;
+}
+
+.headingDiv12{
+  padding-top: 90px;
+}
+
+
+
+
+
+
+.paraDiv{
+  float:left;
+  width:30%;
+  display:inline;
+  font-family:   Cascadia Code;
+
+}
+.paraDiv1{
+  padding-top: 50px;
+    font-family:   Cascadia Code;
+}
+.paraDiv2{
+  padding-top: 40px;
+  font-family:   Cascadia Code;
+}
+.paraDiv3{
+  padding-top: 20px;
+    font-family:   Cascadia Code;
+}
+.paraDiv4{
+  padding-top: 20px;
+    font-family:   Cascadia Code;
+}
+.paraDiv5{
+  padding-top: 20px;
+    font-family:   Cascadia Code;
+}
+.paraDiv6{
+  padding-top: 30px;
+    font-family:   Cascadia Code;
+}
+.paraDiv7{
+  padding-top: 80px;
+    font-family:   Cascadia Code;
+}
+.paraDiv8{
+  padding-top: 50px;
+    font-family:   Cascadia Code;
+}
+.paraDiv9{
+font-family:   Cascadia Code;
+padding-top: 20px;
+}
+
+.paraDiv11{
+font-family:   Cascadia Code;
+}
+.paraDiv12{
+font-family:   Cascadia Code;
+}
+
+.paraDiv13{
+font-family:   Cascadia Code;
+}
+
+.paraDiv14{
+font-family:   Cascadia Code;
+}
+
+
+.paraDiv14{
+font-family:   Cascadia Code;
+}
+
+
+.Magicalimage{
+  padding-top: 30px;
+}
+
+
+.paraDiv9{
+  padding-top: 30px;
+}
+
+.paraDiv15{
+
+  padding-top: 30px;
+
+}
+.paraDiv19{
+
+  padding-top: 20px;
+
+}
+.paraDiv23{
+  padding-top:25px;
+
+}
+.paraDiv26{
+
+}
+
+.paraDiv27{
+padding-top: 5px;
+
+
+}
+
+
+
+
+
+.notbold{
+  font-weight: normal
+
+}
+.notbold1{
+  font-weight: normal
+
+}
+.notbold2{
+  font-weight: normal
+}
+.notbold3{
+  font-weight: normal
+}
+.notbold4{
+  font-weight: normal
+}
+.notbold5{
+  font-weight: normal
+}
+
+.notbold6{
+  font-weight: normal
+}
+
+.notbold7{
+  font-weight: normal
+}
+
+.notbold8{
+  font-weight: normal
+}
+
+.notbold9{
+  font-weight: normal
+}
+
+.notbold10{
+  font-weight: normal
+}
+
+.notbold11{
+  font-weight: normal
+}
+
+.notbold12{
+  font-weight: normal
+}
+.notbold13{
+  font-weight: normal
+}
+.notbold14{
+  font-weight: normal
+}
+
+.notbold15{
+  font-weight: normal
+}
+
+.notbold16{
+  font-weight: normal
+}
+
+
+code for footer 1
+
+
+    .flex-container4401111{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      grid-gap:-40px;
+      margin-left: -100px;
+    }
+
+    .mega4401111{
+        width:135%;
+        height:2px;
+        border:0 none;
+        margin-right:auto;
+        margin-left:-150px;
+        margin-top: 30px;
+
+        background-color: black;
+      }
+
+
+      .footer_4401111{
+      padding-top: 1px;
+      background-color:#2426b;
+      font-family: Corbel Light;
+      margin-left: -105px;
+      }
+      .footer4401111{
+        margin-right: 30px;
+        font-family: Corbel Light;
+        padding-top: -70px;
+        margin-left: 45%;
+
+      }
+      .phantom4401111{
+
+
+
+          width:135%;
+          height:2px;
+          border:0 none;
+          margin-right:auto;
+          margin-left:-155px;
+          margin-top: 20px;
+
+
+          background-color: black;
+        }
+.....................................End of footer 2...............
+
+.table12{
+  margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content1{
+  float:centre;
+  clear:none;
+}
+
+
+
+
+
+.grid div:nth-child(even){
+  background-color:white;
+}
+
+.grid div:nth-child(odd){
+  background-color:white;
+}
+
+
+          <!-- page_2 code start here -->
+          .grid2-container {
+                      display:grid;
+                      grid-template-columns: auto 10fr 10fr;
+                      grid-template-rows: 1fr 1fr 1fr;
+                      grid-template-areas: ".title title"
+                                            ".header  header"
+                                            ".sidebar sidebar"
+                                            ".content content"
+                                            ".footer footer"
+                      ;
+
+                    }
+
+.title2{
+grid-area: title2;
+display grid;
+font-size:35px;
+font-family:  Cascadia Code;
+
+padding-top: 70px;
+}
+
+.Curtin_logo2{
+
+  width: 300px;
+  height:50px;
+  background-image: url(img/curtin.png);
+  background-size: 100%;
+  margin-left:1000px;
+  margin-top: -40px;
+
+}
+.Curtin_logo2:hover{
+  background-size:50%
+
+}
+.phoenix{
+
+
+  width:135%;
+  height:2px;
+  border:0 none;
+  margin-right:auto;
+  margin-left:-400px;
+  margin-top: 30px;
+
+  background-color: black;
+}
+
+.Bmarlin{
+  font-size:20px;
+  float:left;
+  margin-left: 100px;
+  font-family: Cascadia Code;
+}
+
+.selena_gomez{
+  float:left;
+  width:30%;
+   margin-bottom: 30px;
+  font-family:Cascadia Code;
+  margin-left:  220px;
+
+}
+.scorpion{
+
+
+  width:120%;
+  height:2px;
+  border:0 none;
+ margin-right: auto;
+  margin-left:-200px;
+  margin-top: 30px;
+
+  background-color: black;
+}
+
+.AI{
+  font-size:20px;
+  float:left;
+  margin-left: 100px;
+  font-family: Cascadia Code;
+}
+.AI2{
+  float:left;
+  width:30%;
+  margin-bottom: 30px;
+  font-family:Cascadia Code;
+  margin-left:  180px;
+
+}
+.knight{
+
+  margin-bottom: 30px;
+  width:120%;
+  height:2px;
+  border:0 none;
+ margin-right: auto;
+  margin-left:-200px;
+  margin-top: 30px;
+
+  background-color: black;
+}
+
+.AI3{
+  font-size:20px;
+  float:left;
+  margin-left: 100px;
+  font-family: Cascadia Code;
+
+}
+.AI4{
+  float:left;
+  width:30%;
+    margin-bottom: 30px;
+  font-family:Cascadia Code;
+  margin-left:  420px;
+
+}
+
+.jupiter{
+
+
+  width:120%;
+  height:2px;
+  border:0 none;
+ margin-right: auto;
+  margin-left:-200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  background-color: black;
+}
+
+
+.AI5{
+  font-size:20px;
+  float:left;
+  margin-left: 100px;
+  font-family: Cascadia Code;
+}
+.AI6{
+  float:left;
+  width:30%;
+  margin-bottom: 30px;
+  font-family:Cascadia Code;
+  margin-left:  370px;
+
+}
+.bond{
+
+
+  width:120%;
+  height:2px;
+  border:0 none;
+
+  margin-left:-200px;
+
+
+  background-color: black;
+}
+.AI7{
+  font-size:20px;
+  float:left;
+  margin-left: 100px;
+  font-family: Cascadia Code;
+}
+.AI8{
+  float:left;
+  width:30%;
+
+  font-family:Cascadia Code;
+  margin-left:  610px;
+
+}
+.AI9{
+  float:left;
+  width:30%;
+  padding-top: 10px;
+  font-family:Cascadia Code;
+
+  margin-left:  610px;
+  padding-bottom: 20px;
+
+
+}
+
+table{
+    font-family:Cascadia Code;
+  width:400px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+}
+
+th{
+  text-align:left;
+}
+
+table,th,td{
+  border:1px solid #000;
+  border-collapse: collapse;
+}
+th,td{
+  padding: 10px;
+}
+
+tr:nth-child(even){
+  background-color: #fff;
+}
+tr:nth-child(odd){
+  background-color: #ddd;
+}
+.curtin2{
+  width:100%;
+}
+
+..................................
+
+.grid3-container {
+            display:grid;
+            grid-template-columns: auto 10fr 10fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas: ".title title"
+                                  ".header  header"
+                                  ".sidebar sidebar"
+                                  ".content content"
+                                  ".footer footer"
+            ;
+
+          }
+
+.title3{
+grid-area: title2;
+display grid:auto;
+font-size:35px;
+font-family:  Cascadia Code;
+margin-left:   100px;
+padding-top: 70px;
+}
+
+.b22{
+  padding-top: 10px;
+}
+
+
+
+
+
+.Curtin_logo3{
+
+width: 300px;
+height:50px;
+background-image: url(img/curtin.png);
+background-size: 100%;
+margin-left:1000px;
+margin-top: -40px;
+
+}
+.Curtin_logo3:hover{
+background-size:50%
+
+}
+.phoenix3{
+
+
+width:135%;
+height:2px;
+border:0 none;
+margin-right:auto;
+margin-left: -400px;
+margin-top: 30px;
+
+background-color: black;
+}
+
+
+
+
+
+
+
+..............................
+  .title3{
+  grid-area: title2;
+  display grid;
+  font-size:35px;
+  font-family:arial;
+
+  padding-top: 70px;
+  }
+
+  .phoenix2{
+
+
+    width:135%;
+    height:2px;
+    border:0 none;
+    margin-right:auto;
+    margin-left:0px;
+    margin-top: 30px;
+
+    background-color: black;
+  }
+
+.star{
+    padding-top:30px;
+    float:left;
+    width:100%;
+    font-family:Cascadia Code;
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+  }
+  .ninja{
+
+    width:120%;
+    height:2px;
+    border:0 none;
+   margin-right: auto;
+    margin-left:90px;
+
+
+    background-color: black;
+  }
+
+  .risk{
+      padding-top:20px;
+      float:left;
+      width:100%;
+      font-family:Cascadia Code;
+      margin-left:100px;
+
+    }
+
+    .risk2{
+        padding-top:20px;
+        float:left;
+        width:100%;
+        font-family:Cascadia Code;
+        margin-left:  160px;
+
+      }
+
+
+      .risk3{
+          padding-top:20px;
+          float:left;
+          width:100%;
+          font-family:Cascadia Code;
+          margin-left:  160px;
+          list-style: circle;
+
+        }
+
+
+        .online{
+            padding-top:20px;
+            float:left;
+            width:100%;
+            font-family:Cascadia Code;
+            margin-left:  10px;
+
+          }
+
+
+        .online2{
+            padding-top:20px;
+            float:left;
+            width:100%;
+            font-family:Cascadia Code;
+            margin-left:  5px;
+            list-style: circle;
+
+          }
+    .spacing{
+      padding-top:400px;
+
+    }
+
+
+    .flex-container11{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      grid-gap:-20px;
+      margin-left: 0px;
+    }
+
+    .mega11{
+        width:135%;
+        height:2px;
+        border:0 none;
+        margin-right:-120px;;
+        margin-left:-150px;
+        margin-top: 30px;
+
+        background-color: black;
+      }
+    .bond11{
+
+
+
+
+        width:135%;
+        height:2px;
+        border:0 none;
+        margin-right:auto;
+        margin-left:-150px;
+        margin-top: 30px;
+
+        background-color: black;
+      }
+
+
+      .footer_11{
+      padding-top: 1px;
+      background-color:#2426b;
+      font-family: Corbel Light;
+      margin-left: -70px;
+      }
+      .footer11{
+        margin-right: 30px;
+        font-family: Corbel Light;
+        padding-top: -70px;
+        margin-left: 25%;
+
+      }
+      .aish{
+        padding-top: 10px;
+      }
+
+      .grid11{
+        margin-left:-150px;
+      }
+      .title11{
+      grid-area: title;
+      display grid;
+      font-size:35px;
+      font-family:  Cascadia Code;
+
+      padding-top: 70px;
+      }
+      .Curtin_logo11{
+
+        width: 300px;
+        height:50px;
+        background-image: url(img/curtin.png);
+        background-size: 100%;
+        margin-left:1000px;
+        margin-top: -40px;
+
+      }
+      .Curtin_logo11:hover{
+        background-size:50%
+
+      }
+
+      .phoenix11{
+
+
+        width:135%;
+        height:2px;
+        border:0 none;
+        margin-right:auto;
+        margin-left:-155px;
+        margin-top: 30px;
+
+        background-color: black;
+      }
+
+
+        .risk11{
+            padding-top:20px;
+            float:left;
+            width:100%;
+            font-family:Cascadia Code;
+            margin-left:  -50px;
+
+          }
+          .risk12{
+              padding-top:20px;
+              float:left;
+              width:100%;
+              font-family:Cascadia Code;
+              margin-left:  -50px;
+
+            }
+            .risk13{
+                padding-top:20px;
+                float:left;
+                width:100%;
+                font-family:Cascadia Code;
+                margin-left:  -50px;
+
+              }
+
+
+              .risk14{
+                  padding-top:20px;
+                  float:left;
+                  width:100%;
+                  font-family:Cascadia Code;
+                  margin-left:  -50px;
+
+                }
+.table{
+  margin-left: -450px;
+}
+
+.flash{
+    padding-top:20px;
+    float:left;
+    width:100%;
+    font-family:Cascadia Code;
+    margin-left:  -50px;
+
+  }
+  .flash2{
+      padding-top:20px;
+      float:left;
+      width:100%;
+      font-family:Cascadia Code;
+      margin-left:  -50px;
+
+    }
+    .notbold90{
+      font-weight: normal
+    }
+    .flash3{
+        padding-top:20px;
+        float:left;
+        width:100%;
+        font-family:Cascadia Code;
+        margin-left:  -50px;
+
+      }
+      .notbold91{
+        font-weight: normal
+      }
+
+      .flash4{
+          padding-top:20px;
+          float:left;
+          width:100%;
+          font-family:Cascadia Code;
+          margin-left:  -50px;
+
+        }
+        .notbold92{
+          font-weight: normal
+        }
+
+        .flash6{
+          padding-top: 10px;
+        }
+        .flash5{
+            padding-top:20px;
+            float:left;
+            width:100%;
+            font-family:Cascadia Code;
+            margin-left:  10px;
+
+
+          }
+          .flash6{
+              padding-top:20px;
+              float:left;
+              width:100%;
+              font-family:Cascadia Code;
+              margin-left:  -50px;
+
+            }
+
+            .flash7{
+                padding-top:20px;
+                float:left;
+                width:100%;
+                font-family:Cascadia Code;
+                margin-left:  30px;
+
+              }
+
+
+              .spacing2{
+                padding-top: 70px;
+                margin-bottom: 50px;
+              }
+
+.phantom23{
+
+
+
+    width:135%;
+    height:2px;
+    border:0 none;
+
+    margin-left:-155px;
+  margin-top: 30px;
+
+
+    background-color: black;
+  }
+  .flex-container8{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:-40px;
+    margin-left: -100px;
+  }
+
+  .mega8{
+      width:135%;
+      height:2px;
+      border:0 none;
+      margin-right:auto;
+      margin-left:-150px;
+      margin-top: 30px;
+
+      background-color: black;
+    }
+
+
+    .footer_8{
+    padding-top: 1px;
+    background-color:#2426b;
+    font-family: Corbel Light;
+    margin-left: 15px;
+    }
+    .footer8{
+      margin-right: 30px;
+      font-family: Corbel Light;
+      padding-top: -70px;
+      margin-left: 45%;
+
+    }
+    .line{
+      padding-top: 150px;
+    }
+
+    .phantom24{
+
+
+
+        width:135%;
+        height:2px;
+        border:0 none;
+        margin-right:auto;
+        margin-left:-155px;
+        margin-top: 20px;
+
+
+        background-color: black;
+      }
+
+      .grid12{
+        margin-left:-150px;
+      }
+      .title12{
+      grid-area: title;
+      display grid;
+      font-size:35px;
+      font-family:  Cascadia Code;
+
+      padding-top: 70px;
+      }
+      .Curtin_logo12{
+
+        width: 300px;
+        height:50px;
+        background-image: url(img/curtin.png);
+        background-size: 100%;
+        margin-left:1000px;
+        margin-top: -40px;
+
+      }
+      .Curtin_logo12:hover{
+        background-size:50%
+
+      }
+
+      .phoenix12{
+
+
+        width:135%;
+        height:2px;
+        border:0 none;
+        margin-right:auto;
+        margin-left:-155px;
+        margin-top: 30px;
+
+        background-color: black;
+      }
+
+
+.dell2{
+  padding-bottom: 10px;
+}
+
+.dell3{
+  padding-top:40px;
+}
+
+.dell4{
+  padding-top:40px;
+
+}
+
+.dell6{
+  padding-top:50px;
+}
+
+
+.dell7{
+  padding-top: 40px;
+}
+
+.dell90{
+  padding-top: 30px;
+}
+
+.dell99{
+  padding-top: 40px;
+}
+
+.dell44{
+  padding-top:70px;
+}
+.dell46{
+  padding-top: 40px;
+}
+.dell47{
+  padding-top: 25px;
+}
+
+.dell48{
+  padding-top: 40px;
+}
+
+.dell49{
+  padding-top: 30px;
+}
+
+.dell50{
+  padding-top: 30px;
+}
+.dell51{
+  padding-top: 30px;
+}
+
+.dell60{
+  padding-top: 30px;
+}
+
+.dell62{
+  padding-top: 30px;
+}
+
+.phantom44{
+
+
+
+    width:135%;
+    height:2px;
+    border:0 none;
+    margin-right:auto;
+    margin-left:-155px;
+    margin-top: 50px;
+
+
+    background-color: black;
+  }
+  .flex-container44{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:-40px;
+    margin-left: -100px;
+  }
+
+  .mega44{
+      width:135%;
+      height:2px;
+      border:0 none;
+      margin-right:auto;
+      margin-left:-150px;
+      margin-top: 30px;
+
+      background-color: black;
+    }
+
+
+    .footer_44{
+    padding-top: 1px;
+    background-color:#2426b;
+    font-family: Corbel Light;
+    margin-left: 15px;
+    }
+    .footer44{
+      margin-right: 30px;
+      font-family: Corbel Light;
+      padding-top: -70px;
+      margin-left: 45%;
+
+    }
+    .phantom44{
+
+
+
+        width:135%;
+        height:2px;
+        border:0 none;
+        margin-right:auto;
+        margin-left:-155px;
+        margin-top: 20px;
+
+
+        background-color: black;
+      }
+
+      .grid50{
+        margin-left:-150px;
+      }
+      .title50{
+      grid-area: title;
+      display grid;
+      font-size:35px;
+      font-family:  Cascadia Code;
+
+      padding-top: 70px;
+      }
+      .Curtin_logo50{
+
+        width: 300px;
+        height:50px;
+        background-image: url(img/curtin.png);
+        background-size: 100%;
+        margin-left:1000px;
+        margin-top: -40px;
+
+      }
+      .Curtin_logo50:hover{
+        background-size:50%
+
+      }
+
+      .phoenix50{
+
+
+        width:135%;
+        height:2px;
+        border:0 none;
+        margin-right:auto;
+        margin-left:-155px;
+        margin-top: 30px;
+
+        background-color: black;
+      }
+      .del00{
+        padding-top: 20px;
+}
+      .del150{
+        padding-top: 30px;
+      }
+
+
+
+.del152{
+  padding-top: 30px;
+}
+
+
+.del153{
+  padding-top: 30px;
+}
+
+.del154{
+  padding-top: 30px;
+}
+
+.del01{
+  padding-top: 20px;
+}
+
+
+
+.del180{
+  padding-top: 40px;
+}
+
+.del181{
+  padding-top: 30px;
+}
+
+.del182{
+  padding-top: 10px;
+}
+
+.del183{
+  padding-top: 40px;
+}
+
+.del85{
+  padding-top: 40px;
+}
+.del189{
+  padding-top: 40px;
+}
+
+.de120{
+  padding-top: 10px;
+}
+
+.del21{
+  padding-top: 20px;
+}
+
+.del22{
+  padding-top: 20px;
+}
+
+.you{
+  padding-top: 90px;
+}
+
+.flex-container99{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap:-40px;
+  margin-left: -100px;
+}
+
+.mega99{
+    width:135%;
+    height:2px;
+    border:0 none;
+    margin-right:auto;
+    margin-left:-150px;
+    margin-top: 30px;
+
+    background-color: black;
+  }
+
+
+  .footer_99{
+  padding-top: 1px;
+  background-color:#2426b;
+  font-family: Corbel Light;
+  margin-left: 15px;
+  }
+  .footer99{
+    margin-right: 30px;
+    font-family: Corbel Light;
+    padding-top: -70px;
+    margin-left: 45%;
+
+  }
+  .phantom99{
+
+
+
+      width:135%;
+      height:2px;
+      border:0 none;
+      margin-right:auto;
+      margin-left:-155px;
+      margin-top: 20px;
+
+
+      background-color: black;
+    }
+
+
+
+
+      .grid85{
+        margin-left:-150px;
+      }
+      .title85{
+      grid-area: title;
+      display grid;
+      font-size:35px;
+      font-family:  Cascadia Code;
+
+      padding-top: 70px;
+      }
+      .Curtin_logo85{
+
+        width: 300px;
+        height:50px;
+        background-image: url(img/curtin.png);
+        background-size: 100%;
+        margin-left:1000px;
+        margin-top: -40px;
+
+      }
+      .Curtin_logo85:hover{
+        background-size:50%
+
+      }
+
+      .phoenix85{
+
+
+        width:135%;
+        height:2px;
+        border:0 none;
+        margin-right:auto;
+        margin-left:-155px;
+        margin-top: 30px;
+
+        background-color: black;
+      }
+      .brazil{
+        padding-top: 20px;
+      }
+
+.brazil2{
+  padding-top: 5px;
+}
+
+.brazil3{
+  padding-top: 20px;
+}
+
+.brazil4{
+  padding-top: 20px;
+}
+
+.brazil5{
+  padding-top: 30px;
+}
+.brazil7{
+  padding-top: 40px;
+}
+.brazil8{
+  padding-top: 20px;
+}
+.brazil9{
+  padding-top: 20px;
+}
+.brazil90{
+  padding-top: 8px;
+}
+.f1{
+  padding-top: 15px;
+}
+.f2{
+  padding-top: 15px;
+}
+
+.f3{
+  padding-top:15px;
+}
+
+.f4{
+  padding-top:15px;
+}
+
+.f5{
+  padding-top: 10px;
+}
+
+.f6{
+  padding-top: 10px;
+}
+
+.f7{
+  padding-top: 120px;
+}
+
+.flex-container909{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap:-40px;
+  margin-left: -100px;
+}
+
+.mega909{
+    width:135%;
+    height:2px;
+    border:0 none;
+    margin-right:auto;
+    margin-left:-150px;
+    margin-top: 30px;
+
+    background-color: black;
+  }
+
+
+  .footer_909{
+  padding-top: 1px;
+  background-color:#2426b;
+  font-family: Corbel Light;
+  margin-left: 15px;
+  }
+  .footer909{
+    margin-right: 30px;
+    font-family: Corbel Light;
+    padding-top: -70px;
+    margin-left: 45%;
+
+  }
+  .phantom909{
+
+
+
+      width:135%;
+      height:2px;
+      border:0 none;
+      margin-right:auto;
+      margin-left:-155px;
+      margin-top: 20px;
+
+
+      background-color: black;
+    }
+
+
+    .grid501{
+      margin-left:-150px;
+    }
+    .title501{
+    grid-area: title;
+    display grid;
+    font-size:35px;
+    font-family:  Cascadia Code;
+
+    padding-top: 70px;
+    }
+    .Curtin_logo501{
+
+      width: 300px;
+      height:50px;
+      background-image: url(img/curtin.png);
+      background-size: 100%;
+      margin-left:1000px;
+      margin-top: -40px;
+
+    }
+    .Curtin_logo501:hover{
+      background-size:50%
+
+    }
+
+    .phoenix501{
+
+
+      width:135%;
+      height:2px;
+      border:0 none;
+      margin-right:auto;
+      margin-left:-155px;
+      margin-top: 30px;
+
+      background-color: black;
+    }
+
+
+.d1{
+  padding-top: 30px;
+}
+
+.d2{
+  padding-top: 15px;
+}
+.d3{
+  padding-top: 15px;
+}
+
+.d4{
+  padding-top: 15px;
+}
+
+.d5{
+  padding-top: 15px;
+}
+
+.d6{
+  padding-top: 15px;
+}
+
+.d7{
+  padding-top: 30px;
+}
+
+.d8{
+  padding-top: 20px;
+}
+
+.d9{
+  padding-top: 15px;
+}
+
+.d10{
+  padding-top: 15px;
+}
+
+.d11{
+  padding-top: 15px;
+}
+
+.d12{
+  padding-top: 15px;
+}
+
+.d13{
+  padding-top: 25px;
+}
+
+.d14{
+  padding-top: 20px;
+}
+
+.d15{
+  padding-top: 20px;
+}
+
+.d16{
+  padding-top: 20px;
+}
+
+.d17{
+  padding-top: 20px;
+}
+
+.d18{
+  padding-top: 20px;
+}
+
+.d19{
+  padding-top: 20px;
+}
+
+.d20{
+  padding-top: 70px;
+}
+
+
+.flex-container440{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap:-40px;
+  margin-left: -100px;
+}
+
+.mega440{
+    width:135%;
+    height:2px;
+    border:0 none;
+    margin-right:auto;
+    margin-left:-150px;
+    margin-top: 30px;
+
+    background-color: black;
+  }
+
+
+  .footer_440{
+  padding-top: 1px;
+  background-color:#2426b;
+  font-family: Corbel Light;
+  margin-left: 15px;
+  }
+  .footer440{
+    margin-right: 30px;
+    font-family: Corbel Light;
+    padding-top: -70px;
+    margin-left: 45%;
+
+  }
+  .phantom440{
+
+
+
+      width:135%;
+      height:2px;
+      border:0 none;
+      margin-right:auto;
+      margin-left:-155px;
+      margin-top: 20px;
+
+
+      background-color: black;
+    }
+
+    .grid5011{
+      margin-left:-150px;
+    }
+    .title5011{
+    grid-area: title;
+    display grid;
+    font-size:35px;
+    font-family:  Cascadia Code;
+
+    padding-top: 70px;
+    }
+    .Curtin_logo5011{
+
+      width: 300px;
+      height:50px;
+      background-image: url(img/curtin.png);
+      background-size: 100%;
+      margin-left:1000px;
+      margin-top: -40px;
+
+    }
+    .Curtin_logo5011:hover{
+      background-size:50%
+
+    }
+
+    .phoenix5011{
+
+
+      width:135%;
+      height:2px;
+      border:0 none;
+      margin-right:auto;
+      margin-left:-155px;
+      margin-top: 30px;
+
+      background-color: black;
+    }
+.g1{
+  padding-top: 20px;
+}
+
+.g2{
+  padding-top: 30px;
+}
+
+.g3{
+  padding-top: 30px;
+}
+
+.g4{
+  padding-top: 20px;
+}
+
+.g7{
+  padding-top: 30px;
+}
+
+.g8{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.table1{
+  margin-left: -500px;
+}
+
+.table90{
+  margin-left: 200px;
+}
+
+
+
+.table12{
+  margin-left: -500px;
+}
+.Curtin_logo5012{
+
+  width: 200px;
+  height:50px;
+  background-image: url(img/curtin.png);
+  background-size: 100%;
+  margin-left:-100px;
+  margin-top: 100px;
+
+}
+.Curtin_logo5012:hover{
+  background-size:50%
+
+}
+
+.c1{
+  padding-top: 50px;
+}
+
+.d21{
+  padding-top: 70px;
+}
+
+
+.flex-container4401{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap:-40px;
+  margin-left: -100px;
+}
+
+.mega4401{
+    width:135%;
+    height:2px;
+    border:0 none;
+    margin-right:auto;
+    margin-left:-150px;
+    margin-top: 30px;
+
+    background-color: black;
+  }
+
+
+  .footer_4401{
+  padding-top: 1px;
+  background-color:#2426b;
+  font-family: Corbel Light;
+  margin-left: 15px;
+  }
+  .footer4401{
+    margin-right: 30px;
+    font-family: Corbel Light;
+    padding-top: -70px;
+    margin-left: 45%;
+
+  }
+  .phantom4401{
+
+
+
+      width:135%;
+      height:2px;
+      border:0 none;
+      margin-right:auto;
+      margin-left:-155px;
+      margin-top: 20px;
+
+
+      background-color: black;
+    }
+
+
+    .grid50112{
+      margin-left:-150px;
+    }
+    .title50112{
+    grid-area: title;
+    display grid;
+    font-size:35px;
+    font-family:  Cascadia Code;
+
+    padding-top: 70px;
+    }
+    .Curtin_logo50112{
+
+      width: 300px;
+      height:50px;
+      background-image: url(img/curtin.png);
+      background-size: 100%;
+      margin-left:1000px;
+      margin-top: -40px;
+
+    }
+    .Curtin_logo50112:hover{
+      background-size:50%
+
+    }
+
+    .phoenix50112{
+
+
+      width:135%;
+      height:2px;
+      border:0 none;
+      margin-right:auto;
+      margin-left:-155px;
+      margin-top: 30px;
+
+      background-color: black;
+    }
+
+
+.z1{
+  padding-top: 30px;
+}
+
+.z2{
+  padding-top: 20px;
+}
+
+.d211{
+  padding-top: 120px;
+}
+
+
+.flex-container44011{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap:-40px;
+  margin-left: -100px;
+}
+
+.mega44011{
+    width:135%;
+    height:2px;
+    border:0 none;
+    margin-right:auto;
+    margin-left:-150px;
+    margin-top: 30px;
+
+    background-color: black;
+  }
+
+
+  .footer_44011{
+  padding-top: 1px;
+  background-color:#2426b;
+  font-family: Corbel Light;
+  margin-left: 15px;
+  }
+  .footer44011{
+    margin-right: 30px;
+    font-family: Corbel Light;
+    padding-top: -70px;
+    margin-left: 45%;
+
+  }
+  .phantom44011{
+
+
+
+      width:135%;
+      height:2px;
+      border:0 none;
+      margin-right:auto;
+      margin-left:-155px;
+      margin-top: 20px;
+
+
+      background-color: black;
+    }
+
+
+
+    .flex-container440111{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      grid-gap:-40px;
+      margin-left: -100px;
+    }
+
+    .mega440111{
+        width:135%;
+        height:2px;
+        border:0 none;
+        margin-right:auto;
+        margin-left:-150px;
+        margin-top: 30px;
+
+        background-color: black;
+      }
+
+
+      .footer_440111{
+      padding-top: 1px;
+      background-color:#2426b;
+      font-family: Corbel Light;
+      margin-left: 15px;
+      }
+      .footer440111{
+        margin-right: 30px;
+        font-family: Corbel Light;
+        padding-top: -70px;
+        margin-left: 45%;
+
+      }
+      .phantom440111{
+
+
+
+          width:135%;
+          height:2px;
+          border:0 none;
+          margin-right:auto;
+          margin-left:-155px;
+          margin-top: 20px;
+
+
+          background-color: black;
+        }
+
+
+        .phantom2300{
+
+
+
+            width:135%;
+            height:2px;
+            border:0 none;
+            margin-right:auto;
+            margin-left:-155px;
+            margin-top: 50px;
+
+
+            background-color: black;
+          }
+          .flex-container800{
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            grid-gap:-40px;
+            margin-left: -100px;
+          }
+
+          .mega800{
+              width:135%;
+              height:2px;
+              border:0 none;
+              margin-right:auto;
+              margin-left:-150px;
+              margin-top: 30px;
+
+              background-color: black;
+            }
+
+
+            .footer_800{
+            padding-top: 1px;
+            background-color:#2426b;
+            font-family: Corbel Light;
+            margin-right:  500px;
+            }
+            .footer800{
+              margin-right: 30px;
+              font-family: Corbel Light;
+              padding-top: -70px;
+              margin-left: 45%;
+
+            }
+            .line12{
+              padding-top: 150px;
+            }
+
+.cti{
+  margin-left: 400px;
+}
+
+
+
+
+
+
+            .phantom2400{
+
+
+
+                width:135%;
+                height:2px;
+                border:0 none;
+                margin-right:auto;
+                margin-left:-155px;
+                margin-top: 20px;
+
+
+                background-color: black;
+              }
+
+
+
+
+
+
+
+
+
+
+
+
+
+              .phantom230{
+
+
+
+                  width:135%;
+                  height:2px;
+                  border:0 none;
+                  margin-right:auto;
+                  margin-left:-155px;
+                  margin-top: 50px;
+
+
+                  background-color: black;
+                }
+                .flex-container80{
+                  display:grid;
+                  grid-template-columns:1fr 1fr;
+                  grid-gap:-40px;
+                  margin-left: -100px;
+                }
+
+                .mega80{
+                    width:135%;
+                    height:2px;
+                    border:0 none;
+                    margin-right:auto;
+                    margin-left:-150px;
+                    margin-top: 30px;
+
+                    background-color: black;
+                  }
+
+
+                  .footer_80{
+                  padding-top: 1px;
+                  background-color:#2426b;
+                  font-family: Corbel Light;
+                  margin-left: 15px;
+                  }
+                  .footer80{
+                    margin-right: 30px;
+                    font-family: Corbel Light;
+                    padding-top: -70px;
+                    margin-left: 45%;
+
+                  }
+                  .line{
+                    padding-top: 150px;
+                  }
+
+                  .phantom240{
+
+
+
+                      width:135%;
+                      height:2px;
+                      border:0 none;
+                      margin-right:auto;
+                      margin-left:-155px;
+                      margin-top: 20px;
+
+
+                      background-color: black;
+                    }
+
+.t1{
+  padding-top: 60px;
+}
+
+
+.five{
+  margin-left: -100px;
+}
+
+.m9{
+  padding-top: 60px;
+}
